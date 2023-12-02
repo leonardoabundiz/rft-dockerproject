@@ -1,0 +1,7 @@
+version: "24.0.7"
+services:
+  website:
+    image: nginx
+    ports:
+      - "2020:80"
+    restart: always
